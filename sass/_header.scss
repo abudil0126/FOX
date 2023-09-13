@@ -1,0 +1,138 @@
+$font-1: Montserrat;
+$font-2: Anton;
+$color-1: #FE390C;
+
+.hero {
+    height: 840px;
+    background-image: url(../img/Background.jpg);
+    background-size: cover;
+}
+
+nav {
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+}
+
+
+.menu__selects__wp {
+    display: flex;
+    list-style-type: none;
+    gap: 54px;
+    color: #A9A9AA;
+    font-family: $font-1;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+
+    .home {
+        color: $color-1;
+    }
+}
+
+.nav__btn {
+    background-color: transparent;
+    display: inline-flex;
+    padding: 12px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid $color-1;
+    color: $color-1;
+    font-family: $font-1;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.hero__wp{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hero__title {
+    max-width: 583px;
+    width: 100%;
+    height: 309px;
+    display: inline-block;
+    margin: 243px 0px 0px 149px;
+}
+
+.hello {
+    color: $color-1;
+    font-family: $font-1;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.96px;
+}
+
+.im {
+    color: #FFF;
+    font-family: $font-1;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.96px;
+}
+
+.title {
+    color: #FFF;
+    font-family: $font-2;
+    font-size: 130px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 154px;
+    margin: 0;
+    letter-spacing: 1.95px;
+    text-transform: uppercase;
+}
+
+.profession {
+    color: #FFF;
+    font-family: $font-1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.64px;
+}
+
+.hero__btn {
+    display: inline-flex;
+    padding: 16px 24px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    border: none;
+    background: $color-1;
+    color: #FFF;
+    font-family: $font-1;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.social__media {
+    width: 42px;
+    height: 264px;
+    margin: 225px 150px 0px 0px;
+    img{
+        margin-bottom: 32px;
+        background-color: rgba(255, 255, 255, 0.10);;
+        padding: 10px 10px;
+        border: 1px solid transparent;
+        border-radius: 50%;
+    }
+}

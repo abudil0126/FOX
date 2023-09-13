@@ -1,0 +1,23 @@
+ @import "normalize";
+ @import "header";
+ @import "about";
+ @import "work";
+ @import "myservice";
+ @import "portfolio";
+ @import "testimonials";
+
+ *{
+    box-sizing: border-box;
+ }
+
+ body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+ }
+
+ .container{
+    max-width: 1440px;
+    width: 100%;
+ }
+ 
